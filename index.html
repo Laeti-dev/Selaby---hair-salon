@@ -8,48 +8,174 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  </head>
+    </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <a class="navbar-brand btn btn-light" href="#">WEB予約</a>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="nav-item dropdown">
-            <a class="btn btn-light dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">セラビとは</a>
-              <a class="dropdown-item" href="#">メニュ</a>
-              <a class="dropdown-item" href="#">スタッフ</a>
-              <a class="dropdown-item" href="#">店舗情報</a>
-              <a class="dropdown-item" href="#">ご予約</a>
-              <a class="dropdown-item" href="#">Instagram</a>
-            </div>
+        <a class="navbar-brand btn btn-light" href="#booking">WEB予約</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="menu-toggle">
+          <div class="hamburger">
+            <span></span>
           </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="nav-item dropdown">
+              <a class="btn btn-light dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#about">セラビとは</a>
+                <a class="dropdown-item" href="#menu">メニュ</a>
+                <a class="dropdown-item" href="#staff">スタッフ</a>
+                <a class="dropdown-item" href="#info">店舗情報</a>
+                <a class="dropdown-item" href="#booking">ご予約</a>
+                <a class="dropdown-item" href="#instagram">Instagram</a>
+              </div>
+            </div>
+        </div>
+      </nav>
+      <div class="banner">
       </div>
-    </nav>
-    <div class="banner">
-    </div>
+    </header>
+    <main class="container">
+      <section id="about">
+        <h1>セラビとは</h1>
+      </section>
+      <section id="menu">
+        <h1>メニュ</h1>
+        <div class="row">
+          <div class="col-6">
+              <h2>メニュー</h2>
+              <p>シャンプーブロー　<span>3000</span></p>
+              <p>カット　5000</p>
+              <p>前髪　500</p>
+              <br>
+              <p>カラー　7000</p>
+              <p>リタッチ　3000</p>
+              <p>ハイライト　10枚　1000</p>
+              <br>
+              <p>パーマ　6000</p>
+              <p>矯正　15000</p>
+          </div>
+          <div class="col-6">
+              <h2>スパ</h2>
+              <ul>頭皮チェック付き :</ul>
+                <li>30分　3500</li>
+                <li>60分 6500</li>
+              <p>単品の場合のシャンプーブロー 1000</p>
 
-    <div id="about"></div>
-    <div id="menu"></div>
-    <div id="staff"></div>
-    <div id="info"></div>
-    <div id="booking"></div>
-    <div id="instagram"></div>
+              <h2>【おすすめセットメニュー】</h2>
+              <p>カット＋カラー＋頭皮診断付きスパ20分 15000円</p>
 
+              <p>【初めての方専用】</p>
+              <p>頭皮診断･カウンセリング＋カット＋スパ15分 6500円</p>
+
+          </div>
+        </div>
+        <p style="width:100%; text-align: center;">全て税込価格です！</p>
+
+      </section>
+      <section id="staff">
+        <h1>スタッフ</h1>
+      </section>
+      <section id="info">
+        <h1>店舗情報</h1>
+        <div class="container row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.610260689227!2d140.36201431496232!3d35.56332648022198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022eaa35179d9a3%3A0xa26228751d0f8953!2s1044%20T%C5%8Dgane%2C%20Togane%2C%20Chiba%20283-0802!5e0!3m2!1sfr!2sjp!4v1646106646625!5m2!1sfr!2sjp"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="col-6"></iframe>
+
+          <div class="col-6">
+            <table>
+              <tr>
+                <td><i class="fas fa-map-marked"></i></td>
+                <td>〒283-0802 千葉県東金市東金1044</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-phone-alt"></i></td>
+                <td>0475-71-2305</td>
+              </tr>
+              <tr>
+                <td>営業時間</td>
+                <td>8:30〜17:30</td>
+              </tr>
+              <tr>
+                <td>定休日</td>
+                <td>水曜日</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section id="booking">
+        <div class="container">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Example select</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="email">メール</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="name">お名前</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group d-flex ">
+              <label for="choice1">日付の希望 1 :</label>
+              <input type="date" class="form-control date-choice" id="choice1">
+            </div>
+            <div class="form-group d-flex ">
+              <label for="choice1">日付の希望 1 :</label>
+              <input type="date" class="form-control date-choice" id="choice1">
+            </div>
+            <div class="form-group d-flex ">
+              <label for="choice1">日付の希望 1 :</label>
+              <input type="date" class="form-control date-choice" id="choice1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+      <section id="instagram"></section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script>
+      // hamburger menu toggle
+        const menu_toggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.navbar');
+
+        menu_toggle.addEventListener('click', () => {
+          menu_toggle.classList.toggle('is-active');
+          sidebar.classList.toggle('is-active');
+        });
+
+        sidebar.addEventListener('click', () => {
+          menu_toggle.classList.toggle('is-active');
+          sidebar.classList.toggle('is-active');
+        })
+    </script>
   </body>
 </html>
