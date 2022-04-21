@@ -4,6 +4,14 @@ body {
   margin: auto;
 }
 
+header {
+  height: 8rem;
+}
+
+header > a {
+  text-decoration: none;
+}
+
 main {
 
   margin: auto;
