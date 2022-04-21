@@ -1,6 +1,6 @@
 .banner {
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
+  padding-top: 25%;
   background-image: url(../images/S__65445892.jpg);
   object-fit: contain;
 }
