@@ -1,0 +1,11 @@
+#about img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+#about p {
+  width: 70%;
+  margin: auto;
+}
