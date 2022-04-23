@@ -7,6 +7,7 @@ body {
   line-height: 58px;
   font-weight: 400;
   letter-spacing: 4px;
+  text-align: justify;
 }
 
 header > a {

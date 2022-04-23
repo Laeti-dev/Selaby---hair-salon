@@ -9,6 +9,7 @@
   flex-direction: column;
 }
 
-.menu-content {
+.menu--content {
   display: flex;
+  justify-content: space-between;
 }
