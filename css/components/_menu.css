@@ -13,3 +13,20 @@
   display: flex;
   justify-content: space-between;
 }
+
+.menu--hair {
+  width: 55%;
+  margin-right: 4px;
+}
+
+.item {
+  width: 60%;
+}
+
+.price {
+  width: 25%;
+}
+
+th {
+  text-align: center;
+}
