@@ -25,6 +25,18 @@
           <div class="hamburger">
             <span></span>
           </div>
+          <div id="navbar" class="nav-menu">
+            <ul>
+              <li><a href="#banner"></i><span>Home</span></a></li>
+              <li><a href="#about"></i><span>セラビとは</span></a></li>
+              <li><a href="#menu"></i><span>メニュ</span></a></li>
+              <li><a href="#staff"></i><span>スタッフ</span></a></li>
+              <li><a href="#info"></i> <span>店舗情報</span></a></li>
+              <li><a href="#booking"></i> <span>ご予約</span></a></li>
+
+              <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -236,16 +248,16 @@
     <script>
       // hamburger menu toggle
         const menu_toggle = document.querySelector('.menu-toggle');
-        const sidebar = document.querySelector('.navbar');
+        const nav_menu = document.querySelector('.nav-menu');
 
         menu_toggle.addEventListener('click', () => {
           menu_toggle.classList.toggle('is-active');
-          sidebar.classList.toggle('is-active');
+          nav_menu.classList.toggle('is-active');
         });
 
-        sidebar.addEventListener('click', () => {
+        nav_menu.addEventListener('click', () => {
           menu_toggle.classList.toggle('is-active');
-          sidebar.classList.toggle('is-active');
+          nav_menu.classList.toggle('is-active');
         })
     </script>
   </body>
