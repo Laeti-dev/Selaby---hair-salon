@@ -1,4 +1,5 @@
 .selaby--section {
   display: flex;
   width: auto;
+  margin: 8px;
 }
